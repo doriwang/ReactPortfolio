@@ -1,0 +1,18 @@
+{
+    "firstName": "Dori",
+    "lastName": "Wang",
+    "fullName": "Dori Wang",
+    "headline": "Lorem ipsum dolar sit amet",
+    "skills": [
+        "MongoDB",
+        "Express.js",
+        "React",
+        "Node.js",
+        "MySQL",
+        "jQuery"
+    ],
+    "phone": "719.761.4207",
+    "email": "dori.wyj@gmail.com",
+    "github": "https://github.com/doriwang",
+    "linkedIn": "https://www.linkedin.com/in/dori-wang"
+}

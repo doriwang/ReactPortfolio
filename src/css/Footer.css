@@ -1,0 +1,28 @@
+.fixed-bottom {
+    background-color: #141f1f;
+    border-top: 7px solid #40E0D0;
+    height: 70px
+}
+
+.footer {
+    padding-top: 7px;
+}
+
+.elements {
+    text-align: center
+}
+
+.contact {
+    color: #40E0D0;
+    display: inline-block;
+}
+
+.email, span{
+    color: #40E0D0;
+    padding-left: 5px
+}
+
+.email, .phone {
+    text-decoration: underline;
+    font-style: italic
+}

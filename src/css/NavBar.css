@@ -1,0 +1,15 @@
+.navbar {
+    background-color: #141f1f;
+    border-bottom: 7px solid #40E0D0
+}
+
+.nav-link {
+    color: 	#40E0D0;
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+    color: 	#40E0D0
+}
+
+
