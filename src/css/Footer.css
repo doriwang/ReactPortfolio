@@ -17,7 +17,7 @@
     display: inline-block;
 }
 
-.email, span{
+.email, .phone{
     color: #40E0D0;
     padding-left: 5px
 }

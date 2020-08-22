@@ -1,3 +1,10 @@
+.home {
+    background-image: url("../image/homebkrg.png");
+    background-size: cover;
+    height: 100vh;
+    /* margin-bottom: 85px */
+}
+
 .content {
     padding-top: 100px
 }
@@ -13,13 +20,14 @@
     100% {top: 75px}
 }
 
-/* #line2 {
+#line2 {
   	overflow: hidden;
     white-space: nowrap;
     border-right: 4px solid #40E0D0;
     width: 14ch;
-    animation: line2typing 2.5s steps(14);
-    -webkit-animation: line2typing 2.5s steps(14);
+    opacity: 0;
+    animation: line2typing 2.5s steps(16);
+    -webkit-animation: line2typing 2.5s steps(16);
     animation-delay: 1.5s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
@@ -28,43 +36,48 @@
     0% { 
         width: 0ch
     }
+    1% {
+        opacity: 1
+    }
     99.9% { 
         border-right: 4px solid #40E0D0;
     }
     100% {
+        opacity: 1;
         border: none
     }
-}
+} 
 
 #line3 {
     overflow: hidden;
+    opacity: 0;
       white-space: nowrap;
       border-right: 4px solid #40E0D0;
-      width: 33ch;
+      width: 26ch;
+      animation: line3typing 3.5s steps(32), blink .50s step-end infinite alternate;
+      -webkit-animation: line3typing 3.5s steps(32), blink .50s step-end infinite alternate;
       animation-delay: 4s;
-      -webkit-animation-delay: 4s;
-      animation: line3typing 5s steps(33, end), blink .75s step-end infinite alternate;
-      -webkit-animation: line3typing 5s steps(33, end), blink .75s step-end infinite alternate;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
     }
 
     @keyframes line3typing {
     0% { 
         width: 0ch
     }
+    1% {
+        opacity: 1;
+      }
     99.9% { 
         border-right: 4px solid #40E0D0;
     }
-    
     100% {
-        border: none
+        opacity: 1;
     }
 }
 
 @keyframes blink {
-    0% { 
+    50% { 
         border-color: transparent 
     }
-    50% { 
-        border-color: #40E0D0; 
-    }
-} */
+}

@@ -24,7 +24,7 @@ const Footer = () => {
                         <FontAwesomeIcon icon={ faLinkedin } size="3x" style={ style.icon } />
                     </a>
                     <p className="contact"><strong>Email:</strong>
-                        <a className="email" href="mailto:dori.wyj@gmail.com" >{ email }</a><span ><strong
+                        <a className="email" href="mailto:dori.wyj@gmail.com" >{ email }</a><span className="phone"><strong
                         >Phone:</strong></span><span className="phone">{ phone }</span>
                     </p>
                 </div>
