@@ -2,7 +2,7 @@
     {
         "id": "0",
         "name": "Fresh Perspective",
-        "description": "Lorem ipsum dolar sit amet",
+        "description": "Lorem ipsum dolar sit amet.",
         "screenshot": "https://picsum.photos/800/600",
         "github": "https://github.com/",
         "demo": "https://www.google.com/"
@@ -26,7 +26,7 @@
     {
         "id": "3",
         "name": "React Employee Directory",
-        "description": "Lorem ipsum dolar sit amet",
+        "description": "This is a React App using 'Random User Generator API' to create an employee directory database; using props drilling technique passing down components and allow users to type an employee's name to search in the database.",
         "screenshot": "https://picsum.photos/800/600",
         "github": "https://github.com/",
         "demo": "https://www.google.com/"
@@ -34,7 +34,7 @@
     {
         "id": "4",
         "name": "PWA Budget Tracker",
-        "description": "Lorem ipsum dolar sit amet",
+        "description": "This is a MongoDB progressive web app. It has indexedDB and Cache features to store user's data when offline.",
         "screenshot": "https://picsum.photos/800/600",
         "github": "https://github.com/",
         "demo": "https://www.google.com/"
@@ -42,7 +42,7 @@
     {
         "id": "5",
         "name": "ORM Eat-Da-Burger",
-        "description": "Lorem ipsum dolar sit amet",
+        "description": "This full-stack CRUD application interacts with the users using homemade ORM techniques with MVC flow.",
         "screenshot": "https://picsum.photos/800/600",
         "github": "https://github.com/",
         "demo": "https://www.google.com/"
@@ -50,7 +50,7 @@
     {
         "id": "6",
         "name": "MySQL Employee Tracker",
-        "description": "Lorem ipsum dolar sit amet",
+        "description": "This command-line app (Content Management Systems) is a MySQL Employee Database Tracker. It allows a business to view, track, add and update employee data.",
         "screenshot": "https://picsum.photos/800/600",
         "github": "https://github.com/",
         "demo": "https://www.google.com/"
@@ -58,15 +58,15 @@
     {
         "id": "7",
         "name": "API Weather Dashboard",
-        "description": "Lorem ipsum dolar sit amet",
+        "description": "This application uses 'OpenWeatherAPI' and enable users to check the current and 5-day forecast weather for a specific city. The current weather data includes temperature, humidity, wind speed, and UV index. It also sets localStorage and allows the user to save their search history.",
         "screenshot": "https://photos.google.com/photo/AF1QipNV2xryQbasqmEpPAvHAdaBGxCeEAPmBTOIxiJH",
         "github": "https://github.com/",
         "demo": "https://www.google.com/"
     },
     {
         "id": "8",
-        "name": "Random Password Generator",
-        "description": "Lorem ipsum dolar sit amet",
+        "name": "Random PWD Generator",
+        "description": "This is a random password generator application. It has 4 password criteria options and let users choose to include lower/upper case, numeric/special characters. The password can be chosen in between 8-128 characters long.",
         "screenshot": "https://picsum.photos/800/600",
         "github": "https://github.com/",
         "demo": "https://www.google.com/"

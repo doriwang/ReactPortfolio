@@ -2,11 +2,10 @@
     background-image: url("../image/homebkrg.png");
     background-size: cover;
     height: 100vh;
-    /* margin-bottom: 85px */
 }
 
 .content {
-    padding-top: 100px
+    padding-top: 50px
 }
 
 #line1 {

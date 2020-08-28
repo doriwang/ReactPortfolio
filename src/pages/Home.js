@@ -1,8 +1,7 @@
 import React from "react"
 import "../css/Home.css"
 
-function Home() {
-
+const Home = () => {
     return (
         <div className="home">
             <div className="container content">

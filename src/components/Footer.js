@@ -2,7 +2,6 @@ import React from "react"
 import profile from "../data/profile.json"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import "../css/Footer.css"
 
 const { github, email, linkedIn, phone } = profile
 const style = {
@@ -14,8 +13,8 @@ const style = {
 
 const Footer = () => {
     return (
-        <footer className="fixed-bottom">
-            <div className="container footer">
+        <footer className="page-footer">
+            <div className="container">
                 <div className="elements">
                     <a href={ github } target="_blink" >
                         <FontAwesomeIcon icon={ faGithub } size="3x" style={ style.icon } />
@@ -25,7 +24,7 @@ const Footer = () => {
                     </a>
                     <p className="contact"><strong>Email:</strong>
                         <a className="email" href="mailto:dori.wyj@gmail.com" >{ email }</a><span className="phone"><strong
-                        >Phone:</strong></span><span className="phone">{ phone }</span>
+                        >Phone:</strong></span><span className="phoneNum">{ phone }</span>
                     </p>
                 </div>
             </div>

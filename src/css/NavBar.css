@@ -1,15 +1,40 @@
 .navbar {
     background-color: #17141d;
-    border-bottom: 7px solid #40E0D0
+    border-bottom: 7px solid #40E0D0;
+    height: 90px;
+    /* position: sticky !important;
+    top: 0 !important; */
 }
 
-.nav-link {
-    color: 	#40E0D0;
+.nav-wrapper {
+    padding-top: 10px
 }
 
-.nav-link:hover {
-    transform: scale(1.1);
-    color: 	#40E0D0
+#name {
+    margin-top: auto;
+    position: absolute;
+    white-space: nowrap;
+    padding-left: 10px;
+}
+
+a {
+    color: 	#40e0d0
+}
+
+li:hover {
+    transform: scale(1.2);
+}
+
+#logo {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    #name {
+        display: none;
+    }
 }
 
 
