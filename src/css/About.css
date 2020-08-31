@@ -1,0 +1,42 @@
+.about {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: url("../image/about.jpg");
+    background-size: cover
+}
+
+.about-container {
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.about-cards {
+    margin-bottom: -7px;
+    border-top: 3px solid gray;
+}
+
+.about-container h5{
+    background: #DCDCDC;
+    margin-top: -24px;
+    margin-left: -10px;
+    margin-right: -10px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.about-container span {
+    float: right
+}
+
+.about-container ul li{
+    margin-left: 30px;
+    display: list-item;
+    list-style-type: disc
+}
+
+.about-container p {
+    padding-top: 5px;
+    padding-bottom: 0px
+}

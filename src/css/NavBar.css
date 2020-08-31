@@ -14,14 +14,17 @@
     margin-top: auto;
     position: absolute;
     white-space: nowrap;
-    padding-left: 10px;
+    padding-left: 15px;
+    font-family: 'Pinyon Script', cursive;
+    font-family: 'Parisienne', cursive;
+    color: 	#40e0d0 !important
 }
 
-a {
-    color: 	#40e0d0
+.right a {
+    color: 	#40e0d0 !important
 }
 
-li:hover {
+.right li:hover {
     transform: scale(1.2);
 }
 

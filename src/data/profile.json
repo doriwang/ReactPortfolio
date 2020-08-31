@@ -2,7 +2,6 @@
     "firstName": "Dori",
     "lastName": "Wang",
     "fullName": "Dori Wang",
-    "headline": "Lorem ipsum dolar sit amet",
     "skills": [
         "MongoDB",
         "Express.js",
