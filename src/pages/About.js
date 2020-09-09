@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div className="about">
             <div className="container about-container">
-                <Card className="about-cards">
+                <Card className="about-cards col l8 s12">
                     <h5>SUMMARY</h5>
                     <p>MERN stack. Motivated and creative full stack web developer with business background. Professional, detail-oriented, adaptable, and a forward-thinker with a go-getter, positive attitude adept at problem solving.</p>
                 </Card>
@@ -16,7 +16,7 @@ const About = () => {
                 </Card>
                 <Card className="about-cards">
                     <h5>EXPERIENCE</h5>
-                    <p>Fresh perspective Cleaning Services LLC<br />Business Owner<span>2015 - Present</span>
+                    <div>Fresh perspective Cleaning Services LLC<br />Business Owner<span>2015 - Present</span>
                         <ul>
                             <li>Self-disciplined entrepreneur</li>
                             <li>Efficiently manage business through QuickBooks and Excel</li>
@@ -29,7 +29,7 @@ const About = () => {
                             <li>Ensure excellent client experience</li>
                             <li>Effective communicator and highly professional</li>
                         </ul>
-                    </p>
+                    </div>
                 </Card>
                 <Card className="about-cards">
                     <h5>EDUCATION</h5>
@@ -37,9 +37,6 @@ const About = () => {
                     >September, 2020</span></ul>
                     <ul>Arapahoe Community College, Littleton, CO<br />Associate of Applied Science Degree in Accounting<span
                     >May, 2018</span></ul>
-                </Card>
-                <Card className="about-cards">
-                    <h5>HOBBIES</h5>
                 </Card>
             </div>
         </div>

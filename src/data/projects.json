@@ -9,14 +9,14 @@
     {
         "id": "1",
         "name": "Coding Resource Library",
-        "description": "Lorem ipsum dolar sit amet",
+        "description": "Full-stack CRUD web application enables users to manage their favorite coding resources",
         "repo": "https://github.com/doriwang/Coding-Resource-Library",
         "heroku": "https://whispering-cliffs-17988.herokuapp.com/"
     },
     {
         "id": "2",
         "name": "For Food Lovers",
-        "description": "Lorem ipsum dolar sit amet",
+        "description": "This app is created for food lovers. Whether they decide to make a meal at home, do takeouts, or go out and dine in restaurant, this app provides food recipes or location of restaurants near you!",
         "repo": "https://github.com/doriwang/ForFoodLovers",
         "page": "https://doriwang.github.io/ForFoodLovers/"
     },
@@ -25,7 +25,7 @@
         "name": "React Employee Directory",
         "description": "This is a React App using 'Random User Generator API' to create an employee directory database; using props drilling technique passing down components and allow users to type an employee's name to search in the database.",
         "repo": "https://github.com/doriwang/ReactEmployeeDirectory",
-        "heroku": "https://www.google.com/"
+        "heroku": "https://first-employee-directory.herokuapp.com/"
     },
     {
         "id": "4",
@@ -44,7 +44,7 @@
     {
         "id": "6",
         "name": "MySQL Employee Tracker",
-        "description": "This command-line app (Content Management Systems) is a MySQL Employee Database Tracker. It allows a business to view, track, add and update employee data.",
+        "description": "This command-line app (Content Management Systems) is a MySQL Employee Database Tracker. It allows a business to view, track, add and update employee data. Instructions to run the app: 1. start MySQL workbench. 2. open directory terminal and run 'npm i' command. 3. run 'node index.js' command.",
         "repo": "https://github.com/doriwang/MySQLemployeeTracker"
     },
     {
