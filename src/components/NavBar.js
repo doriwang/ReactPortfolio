@@ -1,7 +1,6 @@
 import React, { Component } from "react"
 import { NavLink } from "react-router-dom"
 import bioPic from "../image/bio-img.JPG"
-// import projects from "../data/projects.json"
 import "../css/Navbar.css"
 import M from "materialize-css"
 
