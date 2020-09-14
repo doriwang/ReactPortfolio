@@ -1,15 +1,15 @@
 [
     {
         "id": "0",
-        "name": "Fresh Perspective",
-        "description": "Lorem ipsum dolar sit amet.",
+        "name": "Fresh Perspective Cleaning",
+        "description": "This is a MERN Stack, full CRUD, React application. It is currently designed for my house cleaning company 'Fresh Perspective'. However, it can be utilized by any business that has a similar business operating structure. Tools/packages used in this project are: react-datepicker & react-dates for booking calendar; argon2 & jsonwebtoken for login system, react-materialize and react-router-dom etc.",
         "repo": "https://github.com/doriwang/FreshPerspectiveCleaning",
-        "heroku": "https://www.google.com/"
+        "heroku": "https://infinite-inlet-73216.herokuapp.com/"
     },
     {
         "id": "1",
         "name": "Coding Resource Library",
-        "description": "Full-stack CRUD web application enables users to manage their favorite coding resources",
+        "description": "Full-stack CRUD web application enables users to manage their favorite coding resources. It used Express router, jQuery, ajax and MySQL.",
         "repo": "https://github.com/doriwang/Coding-Resource-Library",
         "heroku": "https://whispering-cliffs-17988.herokuapp.com/"
     },
@@ -32,7 +32,7 @@
         "name": "PWA Budget Tracker",
         "description": "This is a MongoDB progressive web app. It has indexedDB and Cache features to store user's data when offline.",
         "repo": "https://github.com/doriwang/budgetTracker",
-        "page": "https://www.google.com/"
+        "heroku": "https://tranquil-escarpment-94694.herokuapp.com/"
     },
     {
         "id": "5",

@@ -8,11 +8,12 @@ import food from "../image/foodLover.png"
 import pwd from "../image/password.png"
 import weather from "../image/weatherDashboard.png"
 import pwa from "../image/budgetTracker.png"
+import fp from "../image/freshPespective.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import "../css/Portfolio.css"
 
-const screenshots = [code, code, food, directory, pwa, burger, tracker, weather, pwd]
+const screenshots = [fp, code, food, directory, pwa, burger, tracker, weather, pwd]
 
 const ProjectCards = () => {
     return (
