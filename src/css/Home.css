@@ -82,3 +82,9 @@
         border-color: transparent 
     }
 }
+
+@media only screen and (max-width: 600px) {
+    #line1, #line2, #line3{
+        font-size: 24px;
+    }
+}

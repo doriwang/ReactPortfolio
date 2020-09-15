@@ -13,7 +13,7 @@ const style = {
     }
 }
 
-const Footer = () => {
+const AppFooter = () => {
     return (
         <footer className="page-footer">
             <div className="container">
@@ -34,4 +34,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default AppFooter

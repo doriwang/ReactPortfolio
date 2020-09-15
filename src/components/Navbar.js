@@ -10,7 +10,7 @@ class Navbar extends Component {
     }
     render() {
         return (
-            <div>
+            <div className="navBar">
                 <nav className="navbar">
                     <div className="nav-wrapper container">
                         <div className="brand-logo"><img id="logo" src={ bioPic } alt="bio"></img><span id="name">Dori Wang</span></div>
@@ -22,11 +22,13 @@ class Navbar extends Component {
                         </ul>
                     </div>
                 </nav>
-                <ul className="sidenav" id="mobile-demo">
-                    <li><NavLink to="/">Home</NavLink></li>
-                    <li><NavLink to="/about">About</NavLink></li>
-                    <li><NavLink to="/portfolio">Portfolio</NavLink></li>
-                </ul>
+                <div className="sidenav" id="mobile-demo" style={ { width: 100 } }>
+                    <ul>
+                        <li><NavLink to="/">Home</NavLink></li>
+                        <li><NavLink to="/about">About</NavLink></li>
+                        <li><NavLink to="/portfolio">Portfolio</NavLink></li>
+                    </ul>
+                </div>
             </div>
         )
     }

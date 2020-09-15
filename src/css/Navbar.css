@@ -2,8 +2,18 @@
     background-color: #17141d;
     border-bottom: 7px solid #40E0D0;
     height: 90px;
-    /* position: sticky !important;
-    top: 0 !important; */
+}
+
+.navBar a {
+    color:#40E0D0
+}
+
+.sidenav {
+    background-color: #17141d;
+}
+
+.sidenav ul li a {
+    color:#40E0D0
 }
 
 .nav-wrapper {
@@ -37,7 +47,7 @@
 @media only screen and (max-width: 600px) {
     #name {
         display: none;
-    }
+    };
 }
 
 
