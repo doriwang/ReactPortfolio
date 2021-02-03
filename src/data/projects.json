@@ -30,14 +30,14 @@
     {
         "id": "4",
         "name": "PWA Budget Tracker",
-        "description": "This is a MongoDB progressive web app. It has indexedDB and Cache features to store user's data when offline.",
+        "description": "This is a mobile responsive MongoDB progressive web app. It has indexedDB and Cache features to store user's data when offline.",
         "repo": "https://github.com/doriwang/budgetTracker",
         "heroku": "https://tranquil-escarpment-94694.herokuapp.com/"
     },
     {
         "id": "5",
         "name": "ORM Eat-Da-Burger",
-        "description": "This full-stack CRUD application interacts with the users using homemade ORM techniques with MVC flow.",
+        "description": "This full-stack CRUD mobile responsive application interacts with the users using homemade ORM techniques with MVC flow.",
         "repo": "https://github.com/doriwang/ORM-EatDaBurgerApp",
         "heroku": "https://thawing-ravine-88050.herokuapp.com/"
     },
